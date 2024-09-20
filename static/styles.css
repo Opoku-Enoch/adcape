@@ -305,10 +305,7 @@ footer {
     display: block;
     margin: 10px;
   }
-  .navbar{
-    display: none;
-  }
-
+  
 
   .logo img {
     width: 100px;
@@ -330,9 +327,11 @@ footer {
     margin: 20px;
   }
   .home-txt {
-    height: 20vh;
+    height: 80vh;
+    margin-top:40px ;
   }
   .home-txt h2 {
+    margin-top: 180px;
     font-size: 0.5rem;
     width: 100%;
   }
@@ -355,6 +354,14 @@ footer {
     text-align: center;
   }
 
+  .about-text p{
+    width: 90%;
+    text-align: left;
+  }
+
+  .btn-float{
+    display: none;
+  }
   .services p {
     width: 90%;
     text-align: center;
