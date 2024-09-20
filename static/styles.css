@@ -6,8 +6,7 @@ body {
 }
 
 .homePage {
-  background-image: url("static/images/bd.jpg");
-  z-index: 3;
+  background-image: url("static/images/team.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -135,6 +134,7 @@ hr {
 
 .About-content h5 {
   color: #8d7166;
+  margin: 0;
   font-size: 3rem;
   text-align: center;
 }
