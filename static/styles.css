@@ -6,7 +6,7 @@ body {
 }
 
 .homePage {
-  background-image: url("../static/images/bd.jpg");
+  background-image: url("/static/images/bd.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -62,7 +62,7 @@ hr {
 .home-txt {
   width: 50%;
   margin: 200px auto;
-  height: 40vh;
+  height: 70vh;
 }
 
 .home-txt h2 {
@@ -327,7 +327,7 @@ footer {
     margin: 20px;
   }
   .home-txt {
-    height: 80vh;
+    /* height: 80vh; */
     margin-top:40px ;
   }
   .home-txt h2 {
@@ -340,23 +340,27 @@ footer {
     font-size: 20px;
   }
   .About {
-    margin: auto;
-    width: 100%;
-    align-items: center;
+    margin: 0;
   }
   .about-image img {
-    width: 250px;
-    margin: 30px;
+    width: 50%;
+    margin: 0;
+    display: none;
+  }
+
+  .about-image{
+    margin: 0;
+    width: 100%;
   }
   .about-text {
-    width: 100%;
+    width: 300%;
     padding: 10px;
-    text-align: center;
+    margin: 0;
   }
 
   .about-text p{
-    width: 90%;
-    text-align: left;
+    width: 100%;
+    margin: 0;
   }
 
   .btn-float{
@@ -522,7 +526,7 @@ footer {
   }
 
   .About {
-    width: 100%;
+    width: 60%;
     display: flex;
     flex-direction: column;
   }
