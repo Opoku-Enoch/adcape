@@ -1,0 +1,576 @@
+body {
+  background-color: black;
+  color: rgb(243, 232, 210);
+  padding: 0;
+  margin: 0;
+}
+
+.homePage {
+  background-image: url("/static/images/bd.jpg");
+  z-index: 3;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+}
+hr {
+  width: 30%;
+}
+.logo {
+  width: 100%;
+  text-align: center;
+}
+.logo img {
+  width: 250px;
+}
+
+.navbar {
+  width: 80%;
+}
+.navbar ul {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  padding: 10px;
+}
+.navbar ul li {
+  list-style: none;
+}
+
+.navbar ul li a {
+  font-size: 14px;
+  text-decoration: none;
+  color: white;
+  padding: 3px 12px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  border: #8d7166 solid 2px;
+}
+
+.navbar ul li a:hover {
+  background-color: #8d7166;
+  color: black;
+  border-radius: 3px;
+  transition: all ease-in-out 0.5s;
+}
+
+.home-txt {
+  width: 50%;
+  margin: 200px auto;
+  height: 40vh;
+}
+
+.home-txt h2 {
+  font-size: 2rem;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+  font-style: normal;
+}
+
+.home-txt h3 {
+  font-size: 4.5rem;
+  color: white;
+  padding: 0;
+  margin: 0;
+  word-spacing: 20px;
+}
+.appointment-btn {
+  background-color: #8d7166;
+  width: 30%;
+  padding: 5px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.appointment-btn a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+.appointment-btn:hover {
+  color: #8d7166;
+  background-color: transparent;
+  border: solid #8d7166;
+  transition: all ease 0.7s;
+}
+
+.btn-float {
+  position: fixed;
+  bottom: 20px;
+  background-color: #8d7166;
+  right: 20px;
+}
+
+.btn-float a {
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+  font-size: 1.3rem;
+}
+
+/* About */
+.About {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 60%;
+  margin: auto;
+  background-color: black;
+  color: white;
+  align-items: center;
+}
+
+.About-content h5 {
+  color: #8d7166;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.About hr {
+  width: 10%;
+}
+
+.about-image img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.about-text {
+  width: 60%;
+}
+
+.about-text h1 {
+  font-size: 2rem;
+  color: #8d7166;
+  margin-bottom: 0;
+}
+
+.about-text h4 {
+  font-size: 1.5rem;
+  color: #8d7166;
+  margin-bottom: 0;
+}
+
+.about-text p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 50;
+}
+
+.services h1 {
+  font-size: 3rem;
+  color: #8d7166;
+  text-align: center;
+}
+
+.services p {
+  text-align: justify;
+  width: 65%;
+  margin: auto;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+}
+
+.team {
+  margin-top: 100px;
+}
+.team h1 {
+  font-size: 3rem;
+  color: #8d7166;
+  text-align: center;
+}
+
+.team p {
+  text-align: justify;
+  color: white;
+  width: 60%;
+  margin: auto;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.team-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 70%;
+  margin: auto;
+}
+
+.team-cards img {
+  width: 200px;
+  border-radius: 10%;
+}
+
+.team-cards {
+  padding: 60px;
+}
+
+.team-cards h6 {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+.image-text {
+  padding: 10px;
+}
+
+/* contact */
+.contact h1 {
+  font-size: 3rem;
+  color: #8d7166;
+}
+
+.contact p {
+  font-size: 15px;
+  color: white;
+  text-align: justify;
+  width: 70%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 100px;
+  width: 70%;
+  margin: auto;
+}
+
+.contact-txt {
+  width: 100%;
+}
+.contact-img {
+  width: 100%;
+}
+
+.contact-img img {
+  width: 450px;
+}
+
+.contact-txt a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  color: #8d7166;
+  align-self: center;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media (max-width: 320px) {
+  .navbar ul {
+    display: block;
+    margin: 10px;
+  }
+  .logo img {
+    width: 100px;
+  }
+
+  .appointment-btn {
+    width: 80%;
+  }
+
+  .appointment-btn a {
+    font-size: 12px;
+  }
+  .homePage {
+    background-size: cover;
+    background-position: center;
+  }
+
+  .navbar ul li {
+    margin: 20px;
+  }
+  .home-txt {
+    height: 20vh;
+  }
+  .home-txt h2 {
+    font-size: 0.5rem;
+    width: 100%;
+  }
+
+  .home-txt h3 {
+    font-size: 20px;
+  }
+  .About {
+    margin: auto;
+    width: 100%;
+    align-items: center;
+  }
+  .about-image img {
+    width: 250px;
+    margin: 30px;
+  }
+  .about-text {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .services p {
+    width: 90%;
+    text-align: center;
+  }
+
+  .contacts {
+    padding: 0;
+  }
+  .contact a img {
+    width: 150px;
+  }
+  .contact-img img {
+    display: none;
+  }
+  .team-cards {
+    padding: 0;
+  }
+  .team h1 {
+    font-size: 2.5rem;
+  }
+
+  .team p {
+    font-size: 12px;
+    width: 100%;
+  }
+
+  .contact h1 {
+    font-size: 2.2rem;
+  }
+
+  .contact p {
+    font-size: 12px;
+    width: 100%;
+  }
+  .contact-txt a {
+    font-size: 12px;
+  }
+  .services h1 {
+    font-size: 2rem;
+  }
+  .home-txt {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar ul {
+    display: block;
+    margin: 10px;
+  }
+  .home-txt {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .logo img {
+    width: 100px;
+  }
+
+  .appointment-btn {
+    width: 60%;
+  }
+
+  .appointment-btn a {
+    font-size: 12px;
+  }
+  .homePage {
+    background-size: cover;
+    background-position: center;
+  }
+
+  .navbar ul li {
+    margin: 20px;
+  }
+  .home-txt h2 {
+    font-size: 1rem;
+    width: 100%;
+  }
+
+  .home-txt h3 {
+    font-size: 2rem;
+  }
+  .About {
+    margin: auto;
+    width: 100%;
+    align-items: center;
+  }
+  .about-image img {
+    width: 250px;
+    margin: 30px;
+  }
+  .about-text {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .services p {
+    width: 90%;
+    text-align: center;
+  }
+  .services h1 {
+    font-size: 2rem;
+  }
+  .contacts {
+    padding: 0;
+  }
+  .contact a img {
+    width: 150px;
+  }
+  .contact-img img {
+    display: none;
+  }
+  .team-cards {
+    padding: 0;
+  }
+  .team h1 {
+    font-size: 2.5rem;
+  }
+
+  .team p {
+    font-size: 12px;
+    width: 100%;
+  }
+
+  .contact h1 {
+    font-size: 2.2rem;
+  }
+
+  .contact p {
+    font-size: 12px;
+    width: 100%;
+  }
+  .contact-txt a {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo img {
+    width: 120px;
+  }
+
+  .navbar {
+    width: 100%;
+  }
+
+  .navbar ul li a {
+    padding: 0 10px;
+  }
+
+  .home-txt {
+    width: 80%;
+  }
+
+  .appointment-btn {
+    width: 50%;
+  }
+
+  .About {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-image img {
+    margin: 0;
+    padding: 20px;
+  }
+
+  .about-text {
+    width: 100%;
+    padding: 20px;
+  }
+  .home-txt h2 {
+    font-size: 1.5rem;
+  }
+  .home-txt h3 {
+    font-size: 2.5rem;
+  }
+
+  .contacts {
+    margin: 0;
+  }
+
+  .contact-img img {
+    width: 50px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .home-txt h2 {
+    font-size: 1.5rem;
+  }
+  .home-txt h3 {
+    font-size: 2.5rem;
+  }
+
+  .appointment-btn {
+    width: 50%;
+  }
+
+  .About {
+    width: 100%;
+  }
+
+  .about-image img {
+    margin: 0;
+    padding: 20px;
+  }
+
+  .about-text {
+    width: 50%;
+    padding: 20px;
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar ul li {
+    margin: 5px;
+    width: 6rem;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #8d7166;
+  }
+}
