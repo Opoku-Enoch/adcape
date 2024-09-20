@@ -134,9 +134,9 @@ hr {
 
 .About-content h5 {
   color: #8d7166;
-  margin: 0;
   font-size: 3rem;
   text-align: center;
+  margin: 0;
 }
 
 .About hr {
@@ -263,6 +263,13 @@ hr {
 
 .contact-txt {
   width: 100%;
+  text-align: center;
+  
+}
+
+.contact-txt p{
+  text-align: justify;
+  margin: auto;
 }
 .contact-img {
   width: 100%;
@@ -292,11 +299,17 @@ footer {
   font-style: normal;
 }
 
+
 @media (max-width: 320px) {
   .navbar ul {
     display: block;
     margin: 10px;
   }
+  .navbar{
+    display: none;
+  }
+
+
   .logo img {
     width: 100px;
   }
@@ -532,33 +545,6 @@ footer {
   }
 }
 
-@media (max-width: 1024px) {
-  .home-txt h2 {
-    font-size: 1.5rem;
-  }
-  .home-txt h3 {
-    font-size: 2.5rem;
-  }
-
-  .appointment-btn {
-    width: 50%;
-  }
-
-  .About {
-    width: 100%;
-  }
-
-  .about-image img {
-    margin: 0;
-    padding: 20px;
-  }
-
-  .about-text {
-    width: 50%;
-    padding: 20px;
-    justify-content: space-around;
-  }
-}
 
 @media (max-width: 768px) {
   .navbar ul {
@@ -572,5 +558,23 @@ footer {
     border-radius: 5px;
     padding: 5px;
     background-color: #8d7166;
+  }
+
+  .About{
+    text-align: center;
+  }
+}
+
+
+@media (min-width: 1024px) {
+ 
+  .About{  display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+    background-color: black;
+    color: white;
+    align-items: center;
   }
 }
