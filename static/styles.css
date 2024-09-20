@@ -6,10 +6,11 @@ body {
 }
 
 .homePage {
-  background-image: url("static/images/team.jpg");
+  background-image: url("static/images/bd.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  background-color:white;
 }
 nav {
   display: flex;
